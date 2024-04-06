@@ -1,5 +1,17 @@
 # Getting Started with Create React App
 
+creating a react project using vs code.
+we have creating hambuger menu section 
+when the user click on the menu icon all the navigation items or navlink is show and it adjust some width also
+when user is clicking on that navlink the user navigating to that relevant page
+we have home products FAQ connect us meet chef section 
+we have use the slick slider for products and giving some hover style to it.
+we have footer section also
+
+with the help of npm start we are visit to that project 
+git hub link ("https://github.com/Hitendraladhe/chef")
+published link ("")
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
