@@ -1,0 +1,53 @@
+
+.codeSection{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px; 
+    background-color: #fff;
+  }
+  .codeSectio{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 90%;
+    height: 20rem;
+    margin-left: 100px;
+    margin-top: 5rem;
+    
+  }
+  .pouchImg{
+    width: 150px; 
+    height: auto;
+  }
+  .codeHeding{
+    font-size: 3rem;
+    color: #000;
+  }
+  .codePara{
+    font-size: 1rem;
+    color: #000;
+  }
+  .row{
+    display: flex;
+  }
+  .img{
+    width: 10rem;
+    height: 10rem;
+  }
+  .textCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .codeBtn{
+    background-color: transparent;
+    height: 5rem;
+    width: 15rem;
+    border: .2rem #000 solid;
+  }
+  .codeBtn:hover {
+    background-color: #424c57; 
+    color: #fff;
+  }

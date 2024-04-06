@@ -1,38 +1,381 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bgContainer{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  min-height: 300vh;
+  width: 100vw;
+  background-color: #000;
+}
+.App{
+  display: grid;
+  grid-template-columns: minmax(200px, 10%) 1fr;
+  background-image: url("https://wallpaperbat.com/img/8943620-free-ai-art-image-of-kitchen-vitality.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.apps{
+  display: grid;
+  grid-template-columns: minmax(100px, 10%) 1fr;
+  background-image: url("https://wallpaperbat.com/img/8943620-free-ai-art-image-of-kitchen-vitality.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.ulVisible, p{
+  font-size: 1rem;
+  color: #fff;
+  list-style: none;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top:1rem ;
+}
+.ulVisible{
+  margin-top: 3rem;
+}
+.ulInvisible{
+  display: none;
+}
+.invisible{
+  display: none;
+}
+.menuBtn{
+  background-color: transparent;
+  color: none;
+  border: none;
+  transition: 1s ease-in-out;
+}
+.menuIcon{
+  color: #fff;
+  margin: 1rem;
+  font-size: 3rem;
+}
+.menuBarFooter{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-size: 2rem;
+  font-weight: 200;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+}
+li{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.menuBar{
+  background-color: #000;
+  opacity: 0.7;
+  border-right: .5rem goldenrod solid;
+}
+.heroSection{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.meetBtn{
+  background-color: transparent;
+  border: 2px #fff solid;
+  height: 5rem;
+  width: 20rem;
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 30rem;
+  transition: 1s ease-in-out;
+}
+.meetBtn:hover{
+  background-color: rgb(84, 99, 99);
+  
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  height: 2rem;
+  width: 4rem;
+  /* background-color: aqua; */
+}
+a:hover{
+  background-color: goldenrod;
+  border-radius: .2rem;
+  padding: .5rem;
+}
+.numberPara{
+  font-size: .8rem;
+  color: #fff;
+  
+}
+.iconShop{
+  font-size: 1.5rem;
+  color: #fff;
+}
+.number{
+  font-size: .8rem;
+  color: rgb(158, 128, 51);
+  text-decoration: underline;
+}
+.numberLine{
+  background-color: #fff;
+  width: 100%;
+  height: .1rem;
+}
+.productsSection{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.leafs{
+  height: 10rem;
+  width: 20rem;
+}
+
+.slidingCon{
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.gold{
+  background-color: rgb(163, 124, 26);
+  height: .1rem;
+  width: 30rem;
+  border: none;
+  margin-right: 100rem;
+}
+.para{
+  color: #fff;
+  font-size: 1.5rem;
+}
+.headingProduct{
+  color: rgb(163, 124, 26);
+  font-size: 3rem;
+  font-weight: 400;
+}
+/* .slider{
+  height: 30rem;
+  width: 30rem;
+} */
+.paraPrice{
+  font-size: 1rem;
+  color: #fff;
+}
+h6{
+  color: goldenrod;
+  font-size: 1rem;
+  font-weight: 200;
+}
+.img{
+  height: 15rem;
+  width: 15rem;
+  border: .5rem goldenrod solid;
+  border-radius: 50%;
+  transition: 1s ease-in-out;
+}
+.img:hover{
+  zoom: 1.002;
+  transform: scaleX(.02);
+}
+.codeContaier{
+  display: flex;
+  
+  background-color: #fff;
+  width: 80%;
+  height:30rem;
+  margin-left: 100px;
+  margin-top: 5rem;
+  overflow: visible;
+}
+.codeSection{
+  display: flex;
+  flex-direction: column;
+  padding: 20px; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.codeSectio{
+  display: flex;
+  overflow: visible;
+  background-color: #fff;
+  width: 89%;
+  height:30rem;
+  margin-left: 100px;
+  margin-top: 5rem;
+ 
+  
+}
+.pouchImg{
+  width: 230px; 
+  height: auto;
+  transition: 1s ease-in;
+}
+.pouchImg:hover{
+  border: 1px #fff solid;
+}
+.codeHeding{
+  font-size: 3rem;
+  color: #000;
+}
+.codePara{
+  font-size: 1rem;
+  color: #000;
+}
+.textCon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.codeBtn{
+  background-color: transparent;
+  height: 5rem;
+  width: 15rem;
+  border: .2rem #000 solid;
+}
+.codeBtn:hover {
+  background-color: #424c57; 
+  color: #fff;
+}
+.signupSection{
+  background-image: url("https://www.shutterstock.com/image-photo/beef-steaks-on-grill-flames-600nw-413328976.jpg");
+  width: 89%;
+  height: 20rem;
+  margin-top: 5rem;
+  margin-left: 100px;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.subscribeBtn{
+  background-color: rgb(194, 131, 29);
+  color: #fff;
+  margin: .1rem;
+  border: 1px groove solid;
+}
+.detailSection{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 5rem;
+}
+.detailsRow{
+  display: flex;
+  justify-content: space-between;
+  height: 15rem;
+  width: 40rem;
+  background-color: #fff;
+  color: #000;
+  /* margin-left: 100px; */
+  padding: .5rem;
+  transition: 1s ease-in-out;
+}
+.detailsRow:hover{
+  transform: scaleX(1.5);
+  border: #fff 1px solid ;
+}
+.detailsColumn{
+  display: flex;
+  
+}
+.detRowPara{
+  font-size: .8rem;
+  color: #000;
+  margin-left: 1rem;
+}
+.detRowHeading{
+  font-size: 2rem;
+  color: #000;
+  margin-left: 1rem;
+}
+.productImg{
+  height: 15rem;
+  width: 70%;
+}
+
+.recip{
+  background-image: url("https://c.ndtvimg.com/2020-06/md20qlqo_curry_625x300_20_June_20.jpg");
+  background-size: cover;
+  opacity: 0.5;
+  justify-content: center;
+  align-items: center;
+}
+.cheffPara{
+  font-size: 1rem;
+  color: #fff;
+  
+}
+.cheffHeading{
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 22rem;
+  margin-top: 3rem;
+}
+.livehed{
+  font-size: 1rem;
+  color: #fff;
+}
+.live{
+  background-image: url("https://imgmedia.lbb.in/media/2023/05/645df3ddad09c45b4771cf01_1683878877966.jpg");
+  background-size: cover;
+  opacity: 0.5;
+  justify-content: center;
+  align-items: center;
+}
+.liveImg{
+  height: 5rem;
+  width: 5rem;
+  opacity: 5;
+  
+}
+.chef{
+  background-image: url("https://www.shutterstock.com/image-photo/chef-cook-holds-knife-over-260nw-755387314.jpg");
+  background-size: cover;
+}
+.reciHeading{
+  text-align: center;
+  font-size: medium;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footerRow{
+  display: flex;
+  margin-left: 100px;
+  margin-top: 5rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rowHeading{
+  font-size: 1.5rem;
+  margin-right: 9rem;
+  color:goldenrod;
+}
+.rowPara{
+  font-size: 1rem;
+  color: #fff;
+}
+.signuptext{
+  margin-left: 10rem;
+}
+.rowLine{
+  height: .1rem;
+  width: 77rem;
+  background-color: goldenrod;
+  margin-left: 100px;
+}
+.white{
+  background-color: #fff;
+  width: 30rem;
+  margin-left: 0px;
+}
+.headingChef{
+  text-align: center;
+}
+html{
+  font-size: 65%;
 }
