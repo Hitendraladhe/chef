@@ -10,7 +10,7 @@ we have footer section also
 
 with the help of npm start we are visit to that project 
 git hub link ("https://github.com/Hitendraladhe/chef")
-published link ("")
+published link ("https://66112e826670f5d25ec726ca--wondrous-hotteok-ba18f8.netlify.app/")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
